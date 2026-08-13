@@ -1,0 +1,43 @@
+1.WRITE A PROGRAM TO PRINT YOUR NAME
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Spoorthi s Navali");
+    }
+}
+
+2.WRITE A PROGRAM TO TAKE URNAME AND AGE AS INPUT FROM THE USER AND PRINT THEM.
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter your name");
+        String name = sc.nextLine();
+
+        System.out.println("Name of the student: " + name);
+
+        System.out.println("Enter your age");
+        int age = sc.nextInt();
+
+        System.out.println("Age of the student: " + age);
+    }
+}
+
+3.WRTTE FIVE NAMES AS INPUT USER.
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Enter name " + i);
+            String name = sc.nextLine();
+
+            System.out.println("Name of student: " + name);
+        }
+    }
+}
