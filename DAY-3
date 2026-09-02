@@ -1,0 +1,54 @@
+
+1.Check whether a number is Even or Odd
+
+import java.util.Scanner;
+class check_even_or_odd {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num=sc.nextInt();
+        if(num%2==0){
+            System.out.println("Even number");
+        }
+        else{
+            System.out.println("odd number");
+        }
+    }
+}
+2. Find the Largest of Three Numbers.
+
+import java.util.Scanner;
+class check_even_or_odd {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number1");
+        int num1=sc.nextInt();
+        System.out.println("Enter the number2");
+        int num2=sc.nextInt();
+        System.out.println("Enter the number3");
+        int num3=sc.nextInt();
+        if(num1>num2 && num1>num3){
+            System.out.println("num1 is greater than num2 and num3");
+        }
+        else if(num2>num1 && num2>num3){
+            System.out.println("num2 is greater than num1 and num2");
+        }
+        if(num3>num1 && num3>num2){
+            System.out.println("num3 is greater than num2 and num1");
+        }
+    }
+}
+3️.Print the Multiplication Table of a Number (1–10)
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class check_even_or_odd {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num=sc.nextInt();
+        for(int i=0;i<10;i++){
+            System.out.println(num+"X"+i+"="+(num*i));
+        }
+    }
+}
