@@ -8,7 +8,34 @@ class Main {
 
  Program 2:
 Write a program to take *your name and age as input from the user* and print them.
-
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the name of the student");
+        String name=sc.nextLine();
+        System.out.println("Enter the age of the student");
+        int age=sc.nextInt();
+        System.out.println("Name of the student " + name);
+        System.out.println("Age of the student " + age);
+        
+    }
+}
 
 Program 3:
 Write a program to take *5 names as input from the user* and print all 5 names.
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        for(int i=0;i<5;i++){
+             Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the name of the student");
+            String name=sc.nextLine();
+            System.out.println("Name of the student " + name);
+        }
+       }
+}
