@@ -1,0 +1,19 @@
+WRITE A PROGRAM USING CLASS NAME AS STUDENT AND ADD VARIABLES NAME,AGE ROLL AND MARKS
+import java.util.Scanner;
+class Student {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the name of the student");
+        String name=sc.nextLine();
+        System.out.println("Enter the  age of the student");
+        int age=sc.nextInt();
+        System.out.println("Enter the   roll noof the student");
+        int ROll=sc.nextInt();
+        System.out.println("Enter the  marks  of the student");
+        int mark=sc.nextInt();
+        System.out.println("Name of the student "+ name);
+        System.out.println("Age of the student "+ age);
+        System.out.println("Roll of the student "+ ROll);
+        System.out.println("Marks of the student "+ mark );
+    }
+}
