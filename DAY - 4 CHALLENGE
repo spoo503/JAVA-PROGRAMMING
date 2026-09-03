@@ -33,6 +33,62 @@ Given a string s, determine whether it is a palindrome.
 A palindrome is a word or string that reads the same forward and backward.
 
 Return True if it is a palindrome, otherwise return False.
+
+
+import java.util.Scanner;
+
+class Palindrome {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+
+        String reverse = "";
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse = reverse + str.charAt(i);
+        }
+
+        if (str.equals(reverse)) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+    }
+}
+
+
+
+
+
+
+
+
+3.add digit
+class Solution {
+    public int addDigits(int num) {
+
+        while (num >= 10) {
+            int sum = 0;
+
+            while (num > 0) {
+                sum = sum + num % 10;
+                num = num / 10;
+            }
+
+            num = sum;
+        }
+
+        return num;
+    }
+}
+
+
+
+
+
 import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
